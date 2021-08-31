@@ -3,11 +3,12 @@
 
 ## Table of Context
 
-### *Database Variables
-### *Setup
-### *Screenshots
+### -Database Variables
+### -Setup
+### -Screenshots
 
-#### Database Variables
+## 1.Database Variables
+
 1. Open the index.js folder located inside the repository.
 2. Change the index.js variables in accordance to your specific MYSQL username and password.
 
@@ -22,8 +23,8 @@ const conn = mysql.createConnection({
 ```
 3.Find the database used for the project, in the exported msql db folder and import it to your mysql database. 
 
-#### Setup
-1. Clone or fork the CRUD application repository.
+## 2.Setup
+1. [Clone](https://github.com/frankmutethia/CRUD-application-using-ExpressJS-and-MYSQL"Clone") or [fork](https://github.com/frankmutethia/CRUD-application-using-ExpressJS-and-MYSQL) the CRUD application repository.
 2. Ensure the necessary software editors such as sublime(or any other approppriate text-editor), MYSQL Workbench and Git are installed.
 3. Install the following node.js dependencies:
   - Express
@@ -42,6 +43,7 @@ const conn = mysql.createConnection({
   ```
   http://localhost:8000/
   ```
-#### Screenshots
-![Screenshot (86)](https://user-images.githubusercontent.com/50831575/131509177-872ce062-72c7-4325-87c7-4d4cdf599f82.png)
+## 3.Screenshots
+![Screenshot (86)](https://github.com/frankmutethia/CRUD-application-using-ExpressJS-and-MYSQL/blob/master/images/Screenshot%20(86).png)
+![Screenshot (87)](https://github.com/frankmutethia/CRUD-application-using-ExpressJS-and-MYSQL/blob/master/images/Screenshot%20(87).png)
 
